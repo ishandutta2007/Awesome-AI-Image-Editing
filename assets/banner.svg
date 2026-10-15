@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360" style="background: #0b0f19; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#080b11" />
+    </linearGradient>
+
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ec4899" />
+      <stop offset="50%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#3b82f6" />
+    </linearGradient>
+
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0.3" />
+    </linearGradient>
+
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0.05" />
+    </linearGradient>
+
+    <!-- Filters for Glow -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="20" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="subtleGlow">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    /* Keyframe Animations */
+    @keyframes pulseOrb {
+      0%, 100% { transform: scale(1) translate(0, 0); opacity: 0.35; }
+      50% { transform: scale(1.18) translate(30px, -20px); opacity: 0.65; }
+    }
+    @keyframes floatPill1 {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(-12px) rotate(1deg); }
+    }
+    @keyframes floatPill2 {
+      0%, 100% { transform: translateY(0px) rotate(0deg); }
+      50% { transform: translateY(12px) rotate(-1deg); }
+    }
+    @keyframes dashCycle {
+      to { stroke-dashoffset: -1000; }
+    }
+
+    .bg-orb-1 {
+      animation: pulseOrb 8s ease-in-out infinite alternate;
+      transform-origin: 200px 100px;
+    }
+    .bg-orb-2 {
+      animation: pulseOrb 10s ease-in-out infinite alternate-reverse;
+      transform-origin: 1000px 250px;
+    }
+    .flow-line {
+      stroke-dasharray: 8 14;
+      animation: dashCycle 35s linear infinite;
+    }
+    .pill-1 { animation: floatPill1 6s ease-in-out infinite; }
+    .pill-2 { animation: floatPill2 7s ease-in-out infinite; }
+    .pill-3 { animation: floatPill1 8s ease-in-out infinite; }
+  </style>
+
+  <!-- Deep Cosmic Background -->
+  <rect width="1200" height="360" fill="url(#bgGradient)" />
+
+  <!-- Animated Ambient Orbs in Deep Background -->
+  <g filter="url(#glow)">
+    <circle class="bg-orb-1" cx="180" cy="90" r="140" fill="url(#glowGrad)" />
+    <circle class="bg-orb-2" cx="1020" cy="260" r="160" fill="url(#accentGrad)" />
+  </g>
+
+  <!-- Geometric Grid and Dynamic Flow Lines (Background Layers) -->
+  <g opacity="0.15">
+    <path d="M0,60 L1200,60 M0,120 L1200,120 M0,180 L1200,180 M0,240 L1200,240 M0,300 L1200,300" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3 6" />
+    <path d="M150,0 L150,360 M300,0 L300,360 M450,0 L450,360 M600,0 L600,360 M750,0 L750,360 M900,0 L900,360 M1050,0 L1050,360" stroke="#94a3b8" stroke-width="1" stroke-dasharray="3 6" />
+  </g>
+
+  <!-- Dynamic Neural Connection Stream -->
+  <path class="flow-line" d="M -50,180 Q 250,50 550,180 T 1250,180" fill="none" stroke="url(#primaryGrad)" stroke-width="2.5" opacity="0.4" />
+  <path class="flow-line" d="M -50,220 Q 350,330 650,200 T 1250,230" fill="none" stroke="#38bdf8" stroke-width="1.8" opacity="0.25" style="animation-duration: 25s;" />
+
+  <!-- Dynamic Interactive Ecosystem Floating Pills (Side Balanced, Away From Center Text) -->
+  <g class="pill-1" transform="translate(50, 45)">
+    <rect width="145" height="32" rx="16" fill="#1e293b" stroke="#8b5cf6" stroke-width="1.2" opacity="0.85" />
+    <circle cx="18" cy="16" r="5" fill="#a855f7" />
+    <text x="32" y="21" fill="#e2e8f0" font-size="12" font-weight="600" letter-spacing="0.5">✨ Inpainting</text>
+  </g>
+
+  <g class="pill-2" transform="translate(990, 50)">
+    <rect width="160" height="32" rx="16" fill="#1e293b" stroke="#ec4899" stroke-width="1.2" opacity="0.85" />
+    <circle cx="18" cy="16" r="5" fill="#ec4899" />
+    <text x="32" y="21" fill="#e2e8f0" font-size="12" font-weight="600" letter-spacing="0.5">✂️ Rembg / SAM</text>
+  </g>
+
+  <g class="pill-3" transform="translate(980, 275)">
+    <rect width="170" height="32" rx="16" fill="#1e293b" stroke="#38bdf8" stroke-width="1.2" opacity="0.85" />
+    <circle cx="18" cy="16" r="5" fill="#38bdf8" />
+    <text x="32" y="21" fill="#e2e8f0" font-size="12" font-weight="600" letter-spacing="0.5">🤖 Agentic Canvas</text>
+  </g>
+
+  <g class="pill-2" transform="translate(50, 275)">
+    <rect width="155" height="32" rx="16" fill="#1e293b" stroke="#10b981" stroke-width="1.2" opacity="0.85" />
+    <circle cx="18" cy="16" r="5" fill="#10b981" />
+    <text x="32" y="21" fill="#e2e8f0" font-size="12" font-weight="600" letter-spacing="0.5">🚀 SOTA Diffusion</text>
+  </g>
+
+  <!-- FOREGROUND HERO CONTENT (Guaranteed Unhidden, Centered & Crisp) -->
+  <g text-anchor="middle">
+    <!-- Micro Header Tag -->
+    <rect x="445" y="60" width="310" height="28" rx="14" fill="#1f2937" stroke="#374151" stroke-width="1" />
+    <text x="600" y="79" fill="#a78bfa" font-size="11.5" font-weight="700" letter-spacing="1.5">⚡ THE DEFINITIVE AI IMAGE EDITING CURATION</text>
+
+    <!-- Main Title with Gradient Fill -->
+    <text x="600" y="150" fill="url(#primaryGrad)" font-size="48" font-weight="900" letter-spacing="-1" filter="url(#subtleGlow)">
+      Awesome AI Image Editing
+    </text>
+
+    <!-- Subtitle -->
+    <text x="600" y="195" fill="#f8fafc" font-size="19" font-weight="600" letter-spacing="0.2">
+      Enterprise SaaS Platforms • SOTA Open-Source Models • Autonomous AI Agents
+    </text>
+
+    <!-- Detailed Tech Stack Badges / Pillars -->
+    <text x="600" y="232" fill="#94a3b8" font-size="14" font-weight="400" letter-spacing="0.3">
+      Inpainting • Generative Fill • Background Removal • Face Restoration • Canvas Expansion • ComfyUI &amp; SD
+    </text>
+
+    <!-- Decorative Bottom Accent Divider -->
+    <rect x="520" y="260" width="160" height="3" rx="1.5" fill="url(#primaryGrad)" />
+  </g>
+</svg>
