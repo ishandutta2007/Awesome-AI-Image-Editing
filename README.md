@@ -30,6 +30,7 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
 
 - [Open-Source GitHub Projects](#open-source-github-projects)
@@ -40,67 +41,24 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 
 
+## Sector Overview & Market Dynamics
+
+The global AI image editing and generation market is estimated at approximately **$5.1B–$7.8B in 2025/2026**, projected to surge past **$48B+ by 2035** at a CAGR exceeding 22–30%. The sector exhibits a **moderately fragmented yet barbell-structured** market dynamic: incumbent giants (Adobe, Canva) dominate broad creative workflows and enterprise distribution, while agile vertical specialists (Photoroom, Pixelcut) capture high-growth e-commerce niches and open-source models rapidly commoditize standalone point solutions (background removal, inpainting).
+
 ## SaaS/Hosted Platforms
 
-
-
-- **[Adobe Photoshop (Generative Fill)](https://www.adobe.com/products/photoshop.html)**  
-
-  Industry-standard image editor with **Generative Fill** powered by Adobe Firefly. Add, remove, or expand content with text prompts. **Content Credentials** for AI provenance tracking.
-
-
-
-- **[Photoroom](https://www.photoroom.com/)**  
-
-  AI photo editing for e-commerce. Features background removal, AI backgrounds, object removal, and batch editing. **The most e-commerce-focused managed editor.**
-
-
-
-- **[Canva](https://www.canva.com/)**  
-
-  Design platform with Magic Studio AI features. Background remover, Magic Eraser, Magic Edit, and text-to-image generation integrated into template-based design.
-
-
-
-- **[Remove.bg](https://www.remove.bg/)**  
-
-  **The most widely used background removal service.** One-click background removal with API access. Free for low-resolution, paid for HD and batch processing.
-
-
-
-- **[Clipdrop (Jasper)](https://clipdrop.co/)**  
-
-  AI image editing suite. Features Cleanup (object removal), Uncrop (image expansion), Relight, and background removal. API available.
-
-
-
-- **[Pixlr](https://pixlr.com/)**  
-
-  Browser-based photo editor with AI tools. Features AI image generation, background removal, and object removal.
-
-
-
-- **[Luminar Neo](https://skylum.com/luminar)**  
-
-  AI-powered photo editor for desktop. Features sky replacement, portrait enhancement, and generative tools.
-
-
-
-- **[Topaz Labs](https://www.topazlabs.com/)**  
-
-  AI-powered image enhancement. Features Gigapixel (upscaling), Photo AI (denoising, sharpening), and Video AI.
-
-
-
-- **[Pixelcut](https://www.pixelcut.ai/)**  
-
-  AI photo editing for e-commerce. Background removal, product staging, and batch editing.
-
-
-
-- **[Photopea](https://www.photopea.com/)**  
-
-  **Free browser-based Photoshop alternative.** Supports PSD, XCF, Sketch, XD, and Figma formats. **The most feature-complete free browser editor.**
+| Product | Pricing (Starting Tier) | Free Tier / Trial Limits | Company Scale (Valuation / Revenue) | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Adobe Photoshop](https://www.adobe.com/products/photoshop.html)** | $19.99/mo (Photography bundle) or $22.99/mo (Photoshop standalone) | 7-day free trial (Full unrestricted access with payment details required) | ~$93B Market Cap / ~$26.6B ARR | Industry-standard editor with Generative Fill powered by Firefly, canvas expansion, and Content Credentials AI provenance tracking. |
+| **[Canva](https://www.canva.com/)** | $14.99/mo ($119.99/yr for Canva Pro) | Free plan forever (5 GB storage, basic templates/tools; limited Magic Studio AI generations, background remover paywalled) | ~$35B Valuation / ~$4B ARR | Collaborative web design suite featuring Magic Studio AI tools: Background Remover, Magic Eraser, and text-to-image expansion. |
+| **[Clipdrop (Jasper)](https://clipdrop.co/)** | $15/mo (Clipdrop Pro) or Jasper Pro at $59/mo | Free plan forever (Capped daily: ~20 uses/24h for Background Removal/Cleanup/Relight/x2 Upscaling, low-res/watermarked exports) | ~$1.5B Valuation (Parent: Jasper) / ~$100M+ ARR | AI image editing suite offering Cleanup (object removal), Uncrop (canvas expansion), Relight, and API access. |
+| **[Photoroom](https://www.photoroom.com/)** | $4.99/week or ~$9.99/mo (~$69.99/yr for Pro) | Free plan forever (Basic background removal with mandatory Photoroom watermark; ~100 exports/mo, non-commercial only) | $500M Valuation / ~$94M ARR | AI photo editing suite built for e-commerce, offering automated background removal, AI staging, and batch export. |
+| **[Topaz Labs](https://www.topazlabs.com/)** | $12/mo (Image Web) or $19–$39/mo (Desktop Photo AI / Gigapixel) | No permanent free tier; 48-hour money-back trial window on paid subscriptions (Promotional web trial capped at ~10 credits) | ~$340M Acquisition Valuation / ~$10M–$50M ARR | Professional AI image and video upscaling, sharpening, and denoising suite (Gigapixel, Photo AI). |
+| **[Remove.bg](https://www.remove.bg/)** | $9.00/mo (40 credits/mo) or $1.99–$4.99 pay-as-you-go packs | Free plan forever (Unlimited web background removals capped at low-resolution previews ~0.25 MP; 1 free high-res HD credit on sign-up) | ~$100M Acquisition Valuation (Kaleido/Canva) | Dedicated one-click AI background removal service with developer API and automated batch processing. |
+| **[Skylum (Luminar Neo)](https://skylum.com/luminar)** | $9.95/mo (Subscription) or $119 one-time perpetual license | 7-day free trial (Full desktop editing features without requiring credit card upfront; 30-day money-back guarantee) | ~$17.5M ARR / Private Bootstrapped | Desktop photo editor featuring AI sky replacement, portrait enhancement, generative erase, and lighting tools. |
+| **[Pixlr](https://pixlr.com/)** | $1.49/mo (Plus, billed annually) or $6.49/mo (Premium) | Free plan forever (Ad-supported basic editor with daily export/save caps; AI Generative Fill paywalled or limited to trial credits) | ~$9M–$10M ARR (Inmagine Group) | Lightweight browser-based photo editor featuring generative fill, AI cutout, and template design tools. |
+| **[Pixelcut](https://www.pixelcut.ai/)** | $9.99/mo or $59.99/yr ($5.00/mo for Pro) | Free plan forever (Basic background remover capped at ~3 AI generation uses per day; batch export & 4x upscaling paywalled) | Venture-backed Seed (~$2M–$5M ARR est.) | Mobile- and web-first AI product photography editor tailored for e-commerce merchants and creators. |
+| **[Photopea](https://www.photopea.com/)** | $9.00/mo (Single Account Ad-Free) or $5.00/mo (billed annually) | Free plan forever (100% full feature access to all Photoshop/PSD tools, supported by sidebar display advertisements) | ~$2.8M ARR / Solo-founder Bootstrapped | Complete browser-based Photoshop alternative supporting PSD, XCF, Sketch, and XD formats. |
 
 
 
