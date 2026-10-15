@@ -151,7 +151,7 @@ We welcome contributions from photographers, ML researchers, and open-source dev
 
 1. 🍴 **Fork the repository** on GitHub.
 2. 🌿 **Create a descriptive branch**: `git checkout -b feature/add-new-image-tool`.
-3. 📝 **Add your entry** following our strict table/list formatting with verified links, licenses, and star badges.
+3. 📝 **Add your entry** following our strict table/list formatting with verified links, licenses, and Stars_Badges.
 4. 🚀 **Submit a Pull Request** explaining your tool's differentiators and benchmark use cases.
 
 ---
